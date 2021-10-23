@@ -14,6 +14,8 @@
 		44B8808327245D0100BC702D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B8808227245D0100BC702D /* Model.swift */; };
 		44B8808527245EB600BC702D /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B8808427245EB600BC702D /* TabBarView.swift */; };
 		44B8808727245F9100BC702D /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B8808627245F9100BC702D /* LibraryView.swift */; };
+		44B880892724602D00BC702D /* MiniPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B880882724602D00BC702D /* MiniPlayer.swift */; };
+		44B8808B2724604E00BC702D /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B8808A2724604E00BC702D /* BlurView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		44B8808227245D0100BC702D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		44B8808427245EB600BC702D /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		44B8808627245F9100BC702D /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		44B880882724602D00BC702D /* MiniPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPlayer.swift; sourceTree = "<group>"; };
+		44B8808A2724604E00BC702D /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 			children = (
 				44B8808427245EB600BC702D /* TabBarView.swift */,
 				44B8808627245F9100BC702D /* LibraryView.swift */,
+				44B880882724602D00BC702D /* MiniPlayer.swift */,
+				44B8808A2724604E00BC702D /* BlurView.swift */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -180,8 +186,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				44B8808327245D0100BC702D /* Model.swift in Sources */,
+				44B8808B2724604E00BC702D /* BlurView.swift in Sources */,
 				44B8807227245C4000BC702D /* ContentView.swift in Sources */,
 				44B8808527245EB600BC702D /* TabBarView.swift in Sources */,
+				44B880892724602D00BC702D /* MiniPlayer.swift in Sources */,
 				44B8808727245F9100BC702D /* LibraryView.swift in Sources */,
 				44B8807027245C4000BC702D /* RadioAppSwiftUIApp.swift in Sources */,
 			);
