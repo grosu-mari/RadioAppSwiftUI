@@ -1,5 +1,5 @@
 //
-//  Model.swift
+//  MediatecaListCell.swift
 //  RadioAppSwiftUI
 //
 //  Created by Маша Боянжу on 23.10.2021.
