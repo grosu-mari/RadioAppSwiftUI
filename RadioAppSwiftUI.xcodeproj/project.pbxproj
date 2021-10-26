@@ -8,18 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		44B8807027245C4000BC702D /* RadioAppSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B8806F27245C4000BC702D /* RadioAppSwiftUIApp.swift */; };
-		44B8807227245C4000BC702D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B8807127245C4000BC702D /* ContentView.swift */; };
 		44B8807427245C4100BC702D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44B8807327245C4100BC702D /* Assets.xcassets */; };
 		44B8807727245C4100BC702D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44B8807627245C4100BC702D /* Preview Assets.xcassets */; };
+		44B8808327245D0100BC702D /* MeditecaListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B8808227245D0100BC702D /* MeditecaListCell.swift */; };
+		44B8808527245EB600BC702D /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B8808427245EB600BC702D /* TabBarView.swift */; };
+		44B8808727245F9100BC702D /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B8808627245F9100BC702D /* LibraryView.swift */; };
+		44B880892724602D00BC702D /* MiniPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B880882724602D00BC702D /* MiniPlayer.swift */; };
+		44B8808B2724604E00BC702D /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B8808A2724604E00BC702D /* BlurView.swift */; };
+		44B8808D2724612000BC702D /* RadioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B8808C2724612000BC702D /* RadioView.swift */; };
+		44B8808F272462C900BC702D /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B8808E272462C900BC702D /* ListView.swift */; };
+		44B880B42725BBDA00BC702D /* RadioMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B880B32725BBDA00BC702D /* RadioMainView.swift */; };
+		44B880B62725BCEB00BC702D /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B880B52725BCEB00BC702D /* AlbumCell.swift */; };
+		44B880B82725BD0A00BC702D /* AlbumListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B880B72725BD0A00BC702D /* AlbumListCell.swift */; };
+		44B880BA2725BFE800BC702D /* RadioScrollViewHorizontal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B880B92725BFE800BC702D /* RadioScrollViewHorizontal.swift */; };
+		44B880BC2725C07A00BC702D /* RadioScrollViewVertical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B880BB2725C07A00BC702D /* RadioScrollViewVertical.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		44B8806C27245C4000BC702D /* RadioAppSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadioAppSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44B8806F27245C4000BC702D /* RadioAppSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioAppSwiftUIApp.swift; sourceTree = "<group>"; };
-		44B8807127245C4000BC702D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		44B8807327245C4100BC702D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44B8807627245C4100BC702D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		44B8807827245C4100BC702D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44B8808227245D0100BC702D /* MeditecaListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditecaListCell.swift; sourceTree = "<group>"; };
+		44B8808427245EB600BC702D /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		44B8808627245F9100BC702D /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		44B880882724602D00BC702D /* MiniPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPlayer.swift; sourceTree = "<group>"; };
+		44B8808A2724604E00BC702D /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		44B8808C2724612000BC702D /* RadioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioView.swift; sourceTree = "<group>"; };
+		44B8808E272462C900BC702D /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		44B880B32725BBDA00BC702D /* RadioMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioMainView.swift; sourceTree = "<group>"; };
+		44B880B52725BCEB00BC702D /* AlbumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCell.swift; sourceTree = "<group>"; };
+		44B880B72725BD0A00BC702D /* AlbumListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumListCell.swift; sourceTree = "<group>"; };
+		44B880B92725BFE800BC702D /* RadioScrollViewHorizontal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioScrollViewHorizontal.swift; sourceTree = "<group>"; };
+		44B880BB2725C07A00BC702D /* RadioScrollViewVertical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioScrollViewVertical.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +74,9 @@
 		44B8806E27245C4000BC702D /* RadioAppSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				44B8806F27245C4000BC702D /* RadioAppSwiftUIApp.swift */,
-				44B8807127245C4000BC702D /* ContentView.swift */,
+				44B8807E27245CDD00BC702D /* App */,
+				44B8808127245CF100BC702D /* Model */,
+				44B8807F27245CE600BC702D /* View */,
 				44B8807327245C4100BC702D /* Assets.xcassets */,
 				44B8807827245C4100BC702D /* Info.plist */,
 				44B8807527245C4100BC702D /* Preview Content */,
@@ -67,6 +90,64 @@
 				44B8807627245C4100BC702D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		44B8807E27245CDD00BC702D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				44B8806F27245C4000BC702D /* RadioAppSwiftUIApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		44B8807F27245CE600BC702D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				44B880BE2727F6C000BC702D /* MainView */,
+				44B880BD2727F6B000BC702D /* MediatekaView */,
+				44B8808027245CEB00BC702D /* RadioView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		44B8808027245CEB00BC702D /* RadioView */ = {
+			isa = PBXGroup;
+			children = (
+				44B880B32725BBDA00BC702D /* RadioMainView.swift */,
+				44B880B92725BFE800BC702D /* RadioScrollViewHorizontal.swift */,
+				44B880BB2725C07A00BC702D /* RadioScrollViewVertical.swift */,
+			);
+			path = RadioView;
+			sourceTree = "<group>";
+		};
+		44B8808127245CF100BC702D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				44B8808227245D0100BC702D /* MeditecaListCell.swift */,
+				44B880B52725BCEB00BC702D /* AlbumCell.swift */,
+				44B880B72725BD0A00BC702D /* AlbumListCell.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		44B880BD2727F6B000BC702D /* MediatekaView */ = {
+			isa = PBXGroup;
+			children = (
+				44B8808627245F9100BC702D /* LibraryView.swift */,
+				44B8808A2724604E00BC702D /* BlurView.swift */,
+				44B8808C2724612000BC702D /* RadioView.swift */,
+				44B8808E272462C900BC702D /* ListView.swift */,
+			);
+			path = MediatekaView;
+			sourceTree = "<group>";
+		};
+		44B880BE2727F6C000BC702D /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				44B8808427245EB600BC702D /* TabBarView.swift */,
+				44B880882724602D00BC702D /* MiniPlayer.swift */,
+			);
+			path = MainView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +219,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44B8807227245C4000BC702D /* ContentView.swift in Sources */,
+				44B8808327245D0100BC702D /* MeditecaListCell.swift in Sources */,
+				44B8808B2724604E00BC702D /* BlurView.swift in Sources */,
+				44B8808527245EB600BC702D /* TabBarView.swift in Sources */,
+				44B8808D2724612000BC702D /* RadioView.swift in Sources */,
+				44B880892724602D00BC702D /* MiniPlayer.swift in Sources */,
+				44B8808727245F9100BC702D /* LibraryView.swift in Sources */,
+				44B880B42725BBDA00BC702D /* RadioMainView.swift in Sources */,
+				44B880BA2725BFE800BC702D /* RadioScrollViewHorizontal.swift in Sources */,
 				44B8807027245C4000BC702D /* RadioAppSwiftUIApp.swift in Sources */,
+				44B880B62725BCEB00BC702D /* AlbumCell.swift in Sources */,
+				44B880BC2725C07A00BC702D /* RadioScrollViewVertical.swift in Sources */,
+				44B8808F272462C900BC702D /* ListView.swift in Sources */,
+				44B880B82725BD0A00BC702D /* AlbumListCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
