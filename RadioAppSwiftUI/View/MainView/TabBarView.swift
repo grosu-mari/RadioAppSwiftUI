@@ -17,10 +17,12 @@ struct TabBarView: View {
                         Image(systemName: "house.fill")
                         Text("Медиатека")
                     }
+
                 RadioMainView()                    .tabItem {
                     Image(systemName: "dot.radiowaves.left.and.right")
-                        Text("Радио")
-                    }
+                    Text("Радио")
+                }
+
                 Text("Поиск")
                     .tabItem {
                         Image(systemName: "magnifyingglass")
@@ -28,6 +30,7 @@ struct TabBarView: View {
                     }
             }
             .accentColor(.red)
+            
             MiniPlayer()
         })
     }

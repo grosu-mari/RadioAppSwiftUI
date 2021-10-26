@@ -22,7 +22,6 @@ struct MiniPlayer: View {
                     .padding(.trailing, 140)
                     .padding(.bottom, 10)
 
-
                 Text("Champions").font(.system(size: 21))
                     .padding(.leading, -135)
 
@@ -40,7 +39,8 @@ struct MiniPlayer: View {
                         .padding(.leading, 10)
                 }
             }
-        }.background(BlurView())
+        }
+        .background(BlurView())
         .background(Color(.white))
         .ignoresSafeArea(.all) .frame(height: 80)
         .background(BlurView())

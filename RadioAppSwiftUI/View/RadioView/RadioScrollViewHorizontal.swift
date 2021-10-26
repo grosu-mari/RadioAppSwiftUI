@@ -21,23 +21,27 @@ struct RadioScrollViewHorizontal: View {
                         VStack(alignment: .leading) {
                             Text(model.title)
                                 .font(.system(size: 22)) .foregroundColor(.gray)
+
                             Text(model.nameOfGroup)
                                 .font(.title2)
                                 .font(.system(size: 13))
                                 .fontWeight(.medium)
-                                    Text(model.infoAbout)
-                                        .font(.system(size: 24)) .foregroundColor(.gray)
-                                    Image(model.image)
-                                        .resizable()
-                                        .frame(width: 380, height: 250)
-                                        .cornerRadius(8)
-                                }
+
+                            Text(model.infoAbout)
+                                .font(.system(size: 24)) .foregroundColor(.gray)
+
+                            Image(model.image)
+                                .resizable()
+                                .frame(width: 380, height: 250)
+                                .cornerRadius(8)
+                        }
                         Divider()
                             .padding(.top, 15)
-                            }
-                        }
+                    }
+                }
             })
-        }.padding(.leading, 15)
+        }
+        .padding(.leading, 15)
         .padding(.top, -5)
     }
 }

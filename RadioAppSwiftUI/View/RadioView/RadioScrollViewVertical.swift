@@ -28,14 +28,16 @@ struct RadioScrollViewList: View {
                                 VStack(alignment: .leading) { Text(model.title)
                                     .font(.system(size: 18))
                                     .padding(.bottom, -2)
-                                Text(model.infoAbout)
-                                    .font(.system(size: 13)) .foregroundColor(.gray)
-                                }.padding(.top, 50)
+
+                                    Text(model.infoAbout)
+                                        .font(.system(size: 13)) .foregroundColor(.gray)
+                                }
+                                .padding(.top, 50)
+                                
                                 Divider().padding(.top, 40)
                             } 
 
                         }.padding(.top, -10)
-                        
                     }
                 }
             })

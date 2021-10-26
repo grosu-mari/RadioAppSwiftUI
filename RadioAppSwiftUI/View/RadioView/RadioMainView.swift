@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct RadioMainView: View {
-
+    
     var body: some View {
         NavigationView{
             ScrollView(.vertical, showsIndicators: false){
