@@ -13,7 +13,7 @@ struct RadioScrollViewHorizontal: View {
     private var cellsList = ALbumsCell.cells
 
     var body: some View {
-        ScrollView(.horizontal, showsIndicators: true){
+        ScrollView(.horizontal, showsIndicators: false){
             LazyHGrid(rows: rows, content: {
                 ForEach(cellsList, id: \.self){ model in
                     VStack {
@@ -29,15 +29,16 @@ struct RadioScrollViewHorizontal: View {
                                         .font(.system(size: 24)) .foregroundColor(.gray)
                                     Image(model.image)
                                         .resizable()
-                                        .frame(width: 370, height: 270)
-                                        .cornerRadius(16)
+                                        .frame(width: 380, height: 250)
+                                        .cornerRadius(8)
                                 }
-                                Divider()
+                        Divider()
+                            .padding(.top, 15)
                             }
-                            .padding(.leading, 15)
                         }
             })
-        }
+        }.padding(.leading, 15)
+        .padding(.top, -5)
     }
 }
 

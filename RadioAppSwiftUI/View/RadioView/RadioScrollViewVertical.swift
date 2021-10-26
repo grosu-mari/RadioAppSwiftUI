@@ -20,18 +20,22 @@ struct RadioScrollViewList: View {
                         HStack {
                             Image(model.image)
                                 .resizable()
-                                .frame(width: 100, height: 100)
-                                .cornerRadius(16)
+                                .frame(width: 120, height: 120)
+                                .cornerRadius(6)
                                 .padding(.leading, 15)
+                            
                             VStack(alignment: .leading){
-                                Text(model.title)
-                                    .font(.system(size: 24))
+                                VStack(alignment: .leading) { Text(model.title)
+                                    .font(.system(size: 18))
+                                    .padding(.bottom, -2)
                                 Text(model.infoAbout)
-                                    .font(.system(size: 22)) .foregroundColor(.gray)
-                                Divider()
-                            }
-                            .padding(.leading, 10)
-                        }
+                                    .font(.system(size: 13)) .foregroundColor(.gray)
+                                }.padding(.top, 50)
+                                Divider().padding(.top, 40)
+                            } 
+
+                        }.padding(.top, -10)
+                        
                     }
                 }
             })

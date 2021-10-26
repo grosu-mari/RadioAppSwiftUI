@@ -15,10 +15,11 @@ struct RadioMainView: View {
                 VStack(alignment: .leading){
                     RadioScrollViewHorizontal()
                     Text("Станции")
-                        .font(.system(size: 27))
+                        .font(.system(size: 25))
                         .fontWeight(.semibold)
                         .font(.title)
-                        .padding(.leading, 10)
+                        .padding(.leading, 15)
+                        .padding(.top, -10)
                     RadioScrollViewList()
                 }
                 .navigationTitle("Радио")
